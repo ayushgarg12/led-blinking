@@ -1,3 +1,14 @@
 ayush garg is a student of akgec.
 akgec is a nice pirvate college.
-akgec is having greenery 
+akgec is having greenery and good infrastructure.
+led blinking code :
+int led=13
+voidsetup (){
+   pinMode(led,output);
+}
+void loop (){
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+}
